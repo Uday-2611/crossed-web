@@ -1,7 +1,7 @@
 # Crossed
 
 **Connect in the Real World.**
-https://crossed-web.vercel.app
+[https://crossed-web.vercel.app](https://crossed-web.vercel.app/)
 
 Crossed is a mobile dating application designed to foster organic connections through shared real-world locations. Unlike swipe-based apps, Crossed grounds matches in physical reality, connecting individuals who frequent the same environments.
 
