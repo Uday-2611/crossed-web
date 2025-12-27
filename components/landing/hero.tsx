@@ -22,23 +22,23 @@ export function Hero() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl font-semibold tracking-tighter text-black sm:text-5xl md:text-6xl lg:text-6xl leading-14">
-              Meet someone special where <br /> you already love to be.
+              Meet someone special where <br className="hidden md:inline" /> you already love to be.
             </h1>
           </motion.div>
 
           <motion.div
-            className="flex w-full flex-col gap-4 sm:flex-row sm:justify-center lg:justify-center"
+            className="flex w-full flex-col items-center gap-4 sm:flex-row sm:justify-center lg:justify-center"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            <a href="https://github.com/Uday-2611/crossed.git" target="_blank" rel="noopener noreferrer">
-              <Button size="lg" className="rounded-full bg-foreground text-primary-foreground hover:bg-foreground flex justify-center items-center ">
+            <a href="https://github.com/Uday-2611/crossed.git" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+              <Button size="lg" className="w-full rounded-full bg-foreground text-primary-foreground hover:bg-foreground flex justify-center items-center sm:w-auto">
                 View on GitHub
                 <ArrowRight />
               </Button>
             </a>
-            <Button size="lg" className="rounded-full bg-neutral-200 text-black hover:bg-gray-200">
+            <Button size="lg" className="w-full rounded-full bg-neutral-200 text-black hover:bg-gray-200 sm:w-auto">
               Download coming soon
             </Button>
           </motion.div>
@@ -52,7 +52,7 @@ export function Hero() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <div className="relative w-[70vw] h-[70vh]">
+            <div className="relative w-[90vw] md:w-[70vw] h-[50vh] md:h-[70vh]">
               <Image
                 src="/images/hero.jpg"
                 alt="App Screenshot"

@@ -22,9 +22,9 @@ const features = [
 export function Features() {
     return (
         <section className="py-24">
-            <div className="mx-auto px-20">
-                <div className="flex flex-row">
-                    <div className="flex flex-col justify-center w-[50vw]">
+            <div className="mx-auto px-6 md:px-20">
+                <div className="flex flex-col md:flex-row">
+                    <div className="flex flex-col justify-center w-full md:w-[50vw]">
                         <motion.h2
                             className="mb-4 text-3xl font-medium tracking-tight text-black sm:text-4xl"
                             initial={{ opacity: 0, x: -20 }}
@@ -63,9 +63,9 @@ export function Features() {
                     </div>
 
                     {/* Visual Side */}
-                    <div className="relative items-center w-[50vw] flex justify-end">
+                    <div className="relative items-center w-full md:w-[50vw] flex justify-center md:justify-end mt-12 md:mt-0">
                         <motion.div
-                            className="relative w-[80%] h-[80vh] rounded-3xl overflow-hidden"
+                            className="relative w-full md:w-[80%] h-[50vh] md:h-[80vh] rounded-3xl overflow-hidden"
                             initial={{ opacity: 0, scale: 0.9 }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true }}

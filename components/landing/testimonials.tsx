@@ -33,7 +33,7 @@ const testimonials = [
 export function Testimonials() {
     return (
         <section className="py-24">
-            <div className="mx-auto px-20">
+            <div className="mx-auto px-6 md:px-20">
                 <motion.div
                     className="mb-16 text-center"
                     initial={{ opacity: 0, scale: 0.95 }}
