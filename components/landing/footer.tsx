@@ -19,15 +19,17 @@ export function Footer() {
                     </div>
 
                     <div className="flex gap-4">
-                        <a href="#" className=" p-2 text-neutral-500 transition-colors hover:text-black">
-                            <Github className="h-5 w-5" />
-                        </a>
-                        <a href="#" className=" p-2 text-neutral-500 transition-colors hover:text-black">
-                            <Linkedin className="h-5 w-5" />
-                        </a>
-                        <a href="#" className=" p-2 text-neutral-500 transition-colors hover:text-black">
-                            <Mail className="h-5 w-5" />
-                        </a>
+                        <div className="flex gap-4">
+                            <a href="https://github.com/Uday-2611" target="_blank" rel="noopener noreferrer" className=" p-2 text-neutral-500 transition-colors hover:text-black">
+                                <Github className="h-5 w-5" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/udayagarwal2611/" target="_blank" rel="noopener noreferrer" className=" p-2 text-neutral-500 transition-colors hover:text-black">
+                                <Linkedin className="h-5 w-5" />
+                            </a>
+                            <a href="mailto:udayagarwal234@gmail.com" className=" p-2 text-neutral-500 transition-colors hover:text-black">
+                                <Mail className="h-5 w-5" />
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="mt-8 text-center text-sm text-muted-foreground md:text-left">
