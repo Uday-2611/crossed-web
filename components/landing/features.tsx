@@ -72,7 +72,7 @@ export function Features() {
                             transition={{ duration: 0.7 }}
                         >
                             <Image
-                                src="/images/features.jpg"
+                                src="/images/mock-login.png"
                                 alt="Features Screenshot"
                                 fill
                                 className="object-cover"
