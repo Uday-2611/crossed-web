@@ -1,6 +1,7 @@
 "use client"
 
 import { Github, Linkedin, Mail } from "lucide-react"
+import Image from "next/image"
 
 export function Footer() {
     return (
@@ -8,7 +9,13 @@ export function Footer() {
             <div className="container mx-auto px-6">
                 <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
                     <div className="flex items-center gap-2">
-                        <div className="h-8 w-8 rounded-lg bg-black/20" />
+                        <Image
+                            src="/images/icon-light.png"
+                            alt="Crossed Logo"
+                            width={32}
+                            height={32}
+                            className="rounded-lg"
+                        />
                         <span className="text-xl font-bold tracking-tight text-black">Crossed</span>
                     </div>
 

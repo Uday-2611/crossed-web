@@ -75,7 +75,7 @@ export function Features() {
                                 src="/images/mock-login.png"
                                 alt="Features Screenshot"
                                 fill
-                                className="object-cover"
+                                className="object-cover object-[50%_30%]"
                             />
                         </motion.div>
                     </div>
